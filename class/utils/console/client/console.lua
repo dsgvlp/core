@@ -1,5 +1,6 @@
 Logger = {}
 
+-- Client-Side (--@dsgvlp : 12/05/2025 21:56:33 Finished Logger:TraceClient)
 function Logger:TraceClient(string, style)
     local styles = { info = '^4[loadCore] > [INFO]^0', warn = '^8[loadCore] > [WARN]^0', done = '^2[loadCore] > [SUCCESS]^0', err = '^1[loadCore] > [ERROR]^0' }
     
